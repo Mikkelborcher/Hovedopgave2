@@ -2,13 +2,31 @@
 
 header {
     margin: 2em;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+nav {
+    grid-row: 0/1;
 }
 
 .logo {
-    max-width: 20%;
+    max-width: 80%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 li {
-    display: flex;
-    flex-direction: row;
+    font-family: $fontsecondary;
+    font-size: 1.5em;
+    margin: auto 0;
+}
+
+.headerbutton {
+    grid-row: 0/1;
+    justify-self: center;
 }

@@ -1,0 +1,49 @@
+@use "../core/" as *;
+
+body {
+    background-color: rgb(249, 248, 255);
+}
+
+h1 {
+    font-family: $fontprimary;
+    font-size: 3em;
+    text-align: center;
+    padding: 2em 2em 0em 2em;
+}
+
+h2 {
+    font-family: $fontsecondary;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1.5em
+}
+
+h3 {
+    font-family: $fontsecondary;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: $fontsecondary;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: $fontsecondary;
+}
+
+.heroimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.infosection {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5em;
+}

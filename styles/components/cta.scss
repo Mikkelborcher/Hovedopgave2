@@ -1,0 +1,21 @@
+@use "../core/" as *;
+
+.cta {
+
+}
+
+.cta__title {
+
+}
+
+.cta__button {
+    background-color: purple;
+    border: none;
+    border-radius: 20%;
+    font-family: $fontsecondary;
+    color: white;
+    font-weight: 900;
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+    margin: 0 auto;
+}

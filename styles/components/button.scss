@@ -1,0 +1,11 @@
+@use "../core/" as *;
+
+.headerbutton {
+    background-color: purple;
+    border: 1px solid;
+    border-radius: 10%;
+    font-family: $fontsecondary;
+    color: white;
+    font-weight: 900;
+    padding: 0.5em 1em;
+}
