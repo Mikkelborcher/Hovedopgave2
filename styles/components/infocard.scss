@@ -1,11 +1,11 @@
 @use "../core/" as *;
 
 .infocard {
-    background-color: purple;
+    background-color: rgb(22, 91, 131);
     align-items: center;
     justify-content: center;
     border-radius: 2em;
-    padding: 1em;
+    padding: 2em 4em 2em 4em;
 }
 
 .infoimg {
@@ -18,15 +18,17 @@
 .infocard__title {
     text-align: center;
     padding-top: 1em;
+    color: white;
 }
 
 .infocard__text {
     text-align: center;
     padding-bottom: 1em;
+    color: white;
 }
 
 .infomiddle {
-    padding: 0em 2em 0em 2em;
+    padding: 0em 8em 0em 8em;
 }
 
 .infomiddle__paragraph {
