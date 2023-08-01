@@ -6,14 +6,19 @@
     grid-template-columns: 50% 50%;
 
     &__title {
-        margin-top: 2em;
+        
     }
     &__subtitle {
-        margin: 5em;
+        line-height: 2em;
+        margin: 1em 5em 1em 5em;
     }
     &__img {
         object-fit: cover;
         width: 100%;
         max-height: 100%;
     }
+}
+
+.presentation aside {
+    margin: auto;
 }

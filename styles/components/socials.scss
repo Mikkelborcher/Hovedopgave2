@@ -1,9 +1,12 @@
 @use "../core/" as *;
 
 .socialsection {
+    background-color: rgb(219, 219, 219);
+    padding: 2em;
+    margin-top: 5em;
 
     &__title {
-        margin-top: 2em;
+        
     }
     &__subtitle {
         text-align: center;
@@ -16,10 +19,6 @@
     display: flex;
     justify-content: center;
     gap: 5em;
-
-        &__link {
-
-        }
 
         &__img {
             max-width: 100%;
