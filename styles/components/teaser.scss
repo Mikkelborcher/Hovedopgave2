@@ -1,0 +1,32 @@
+@use "../core/" as *;
+
+
+.teaser {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10em;
+    margin: 5em;
+
+    &__img {
+        max-width: 15%;
+        display: block;
+        margin: auto;
+        padding: 1em;
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+    }
+
+    &__card {
+        background-color: rgb(55, 55, 160);
+        border-radius: 2em;
+        color: white;
+        padding: 1em;
+    }
+}
+
