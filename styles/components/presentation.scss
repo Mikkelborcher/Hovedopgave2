@@ -6,13 +6,14 @@
     grid-template-columns: 50% 50%;
 
     &__title {
-        margin-top: ;
+
     }
     &__subtitle {
         margin: 5em;
     }
     &__img {
         grid-column: 2/3;
-        grid-row: 1/3;
+        grid-row: 1/2;
+        height: 50%;
     }
 }
